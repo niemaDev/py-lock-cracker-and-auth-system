@@ -55,14 +55,30 @@ py login.py
 ### Sample output
 ```
 === Login System ===
-Username: admin
-Password: wrongpass
+Username: niema
+Password: niema@12
 Incorrect username or password. Attempts left: 4
 
-Username: admin
-Password: pass123
+Username: mom
+Password: umi123
+Incorrect username or password. Attempts left: 3
 
-Login Successful!
+Username: mahir
+Password: 123456
+Incorrect username or password. Attempts left: 2
+
+Username: hani
+Password: 987654
+Incorrect username or password. Attempts left: 1
+
+Username: hanu
+Password: han123
+Account locked. Try again in 60 second(s).
+......
+Account locked. Try again in 0 second(s).
+Lockout period over. You may try logging in again.
+
+Username: 
 ```
 
 If 5 attempts fail in a row, you'll instead see:
