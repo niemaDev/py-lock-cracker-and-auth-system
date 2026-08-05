@@ -1,36 +1,23 @@
 """
-4-Digit PIN Brute-Force Simulator
-==================================
-Educational demo: simulates how a brute-force attack would try every
-possible 4-digit PIN (0000-9999) against a mock lock screen until it
-finds the correct one. No real device or security system is involved -
-the "secret PIN" is just a variable stored in this script.
+4 digit PIN brute-force simulator
 
-Concepts used: loops, conditionals, string formatting, functions, time module.
 """
 
 import time
 
-
 def generate_pin(number):
-    """Convert an integer (0-9999) into a zero-padded 4-digit string, e.g. 7 -> '0007'."""
+    """Convert an integer (0-9999) into a zero-padded 4-digit string, just like 7 -> '0007'."""
     return f"{number:04d}"
 
 
 def check_pin(attempt, secret):
-    """Return True if the attempted PIN matches the secret PIN."""
+    """return True if the attempted PIN matches the secret PIN and display the secret pin."""
     return attempt == secret
-
 
 def brute_force_attack(secret_pin, show_attempts=True, delay=0.0):
     """
     Try every PIN from 0000 to 9999 in order until secret_pin is found.
 
-    Args:
-        secret_pin: the 4-digit string PIN we're trying to crack.
-        show_attempts: if True, print every attempt (slower, more verbose).
-        delay: optional artificial delay per attempt (seconds), to make
-               the "attack" visible/slower for demo purposes.
     """
     print(f"Starting brute-force simulation on a mock lock screen...")
     print(f"Target PIN length: 4 digits | Search space: 0000-9999\n")
