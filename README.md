@@ -23,7 +23,7 @@ Simulates how a brute-force attack works against a 4-digit PIN. The program trie
 
 ### How to run
 ```bash
-python3 bruteforce.py
+py bruteforce.py
 ```
 
 ### Sample output (tail end)
@@ -49,7 +49,7 @@ A simple login system that stores usernames and passwords in a Python dictionary
 
 ### How to run
 ```bash
-python3 login.py
+py login.py
 ```
 
 ### Sample output
