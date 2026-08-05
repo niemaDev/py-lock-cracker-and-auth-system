@@ -87,7 +87,7 @@ Too many failed attempts. Account locked at 22:14:07 for 1 minute.
 Account locked. Try again in 58 second(s).
 ```
 
-Test credentials are stored directly in the `users` dictionary near the top of the script (`admin` / `pass123`, `student` / `bdu2026`).
+Test credentials are stored directly in the `users` dictionary near the top of the script .
 
 ---
 
