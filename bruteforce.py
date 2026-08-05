@@ -1,6 +1,5 @@
 """
 4 digit PIN brute-force simulator
-
 """
 
 import time
@@ -17,7 +16,6 @@ def check_pin(attempt, secret):
 def brute_force_attack(secret_pin, show_attempts=True, delay=0.0):
     """
     Try every PIN from 0000 to 9999 in order until secret_pin is found.
-
     """
     print(f"Starting brute-force simulation on a mock lock screen...")
     print(f"Target PIN length: 4 digits | Search space: 0000-9999\n")
