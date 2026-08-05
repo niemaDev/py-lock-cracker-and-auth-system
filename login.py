@@ -1,12 +1,5 @@
 """
 Simple Login System with Lockout Protection
-=============================================
-Stores credentials in-memory (a dictionary) — no database involved.
-Repeatedly asks for username/password until login succeeds.
-Locks the account for 1 minute after 5 consecutive failed attempts.
-
-Concepts used: variables, dictionaries, while loop, conditionals,
-string formatting, functions, the datetime module.
 """
 
 from datetime import datetime, timedelta
