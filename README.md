@@ -91,6 +91,6 @@ Test credentials are stored directly in the `users` dictionary near the top of t
 
 ---
 
-## Notes
+## Remember
 
-Both scripts are self-contained — no external libraries are needed beyond the Python standard library (`time`, `datetime`). Tested with Python 3.10+.
+Both scripts are self-contained no external libraries are needed beyond the Python standard library (`time`, `datetime`). Tested with Python 3.10+.
